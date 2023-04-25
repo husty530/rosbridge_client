@@ -44,6 +44,7 @@ if __name__ == '__main__':
     pub = ros.add_topic('turtle1/cmd_vel', 'geometry_msgs/Twist') # ROS1
     #pub = ros.add_topic('turtle1/cmd_vel', 'geometry_msgs/msg/Twist') # ROS2
 
+    # test by keyboard event
     while True:
       key = read_key()
       x = 0

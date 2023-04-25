@@ -27,20 +27,26 @@ pip install keyboard
 ```
 and execute 'main.py'
 
-### (utility commands)
+### commands for search
 #### ROS1
 ```
+rosmsg list
+rossrv list
+rosmsg show <msg>
+rossrv show <srv>
 rosnode list
-rosnode info <node_name>
+rosnode info <node>
 rostopic list
-rostopic info <topic_name>
-rostopic echo <topic_name>
+rostopic info <topic>
+rostopic echo <topic>
 ```
 #### ROS2
 ```
+ros2 interface list
+ros2 interface show <msg/srv>
 ros2 node list
-ros2 node info <node_name>
+ros2 node info <node>
 ros2 topic list
-ros2 topic info <topic_name>
-ros2 topic echo <topic_name>
+ros2 topic info <topic>
+ros2 topic echo <topic>
 ```
